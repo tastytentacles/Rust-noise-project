@@ -8,4 +8,4 @@ Points are scattered semi randomly around the center of the image and along the 
 
 This data is then distributed to a thread pool and the resulting chucks are recombined to create the output image.
 
-![/frame.jpg]
+![Output frame example](/frame.jpg)
