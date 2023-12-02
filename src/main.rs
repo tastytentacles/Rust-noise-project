@@ -130,7 +130,7 @@ fn do_frag(mut img: GrayImage) -> GrayImage {
         }
     }
     
-    println!("{} {} {} skips", dtime.elapsed().as_secs_f32(), "Center Points Plotted!", skips);
+    println!("{} Center Points Plotted! {} skips", dtime.elapsed().as_secs_f32(), skips);
 
 
     // break up image and spawn threads
