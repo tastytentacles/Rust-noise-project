@@ -6,6 +6,6 @@ Rendering is achieved by implementing a fragment shader on the CPU in parallel a
 
 Points are scattered semi randomly around the center of the image and along the edges to create a seamless output texture.
 
-This data is then distributed to a thread pool and the resulting chucks are recombined to create the output image.
+This data is then distributed to a thread pool which applies the fragment code and the resulting chucks are recombined to create the output image.
 
-![Output frame example](/frame.jpg)
+![Output example](/frame.jpg)
